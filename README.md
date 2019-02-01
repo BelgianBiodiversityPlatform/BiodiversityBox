@@ -58,3 +58,4 @@ Since we're not doing anything especially fancy, you should be able to perform t
 
 ## Can I use it without VirtualBox?
 
+BiodiversityBox is distributed in the [Open Virtualization Format](https://en.wikipedia.org/wiki/Open_Virtualization_Format): while you can't just install it on a "physical computer", other virtualization packages such as VMWare will also work. If you cannot install any virtualization solution on your local computer, it may be possible to run this in the cloud with remote screen access (to be investigated and documented).
