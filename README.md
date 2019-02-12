@@ -1,10 +1,10 @@
 # BiodiversityBox
 
-![screenshot](https://github.com/BelgianBiodiversityPlatform/BiodiversityBox/raw/master/screenshot.png)
-
 BiodiversityBox is a preconfired Linux system for biodiversity informatics works. 
 
 It is distributed as a [virtual applicance](https://en.wikipedia.org/wiki/Virtual_appliance) so it can be very easily installed within [VirtualBox](https://www.virtualbox.org/) (basically a PC-in-a-window) on any Windows / Mac or Linux machine.
+
+![general screenshot](https://github.com/BelgianBiodiversityPlatform/BiodiversityBox/raw/master/screenshot.png)
 
 # What's included
 
@@ -26,11 +26,27 @@ Something's missing? Don't hesitate to [report it with an issue](https://github.
 
 # Getting started
 
-1. Install [VirtualBox](https://www.virtualbox.org/) on your computer.
-2. Download the BiodiversityBox virtual appliance and import it in VirtualBox.
-3. Exectute the virtual machine
-4. Tweak the configuration (see below)
+1. Install [VirtualBox](https://www.virtualbox.org/) (version 6) on your computer.
+2. Download the BiodiversityBox virtual appliance and [import it in VirtualBox](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html).
+3. Run the virtual machine
+4. Optionally, tweak the configuration (see below)
 
+# How to use...
+
+## IPT
+
+- Installed version: 2.3.6
+- The IPT is available at the http://localhost:8080/ipt address within BiodiversityBox. You'll find a shortcut to it in the launch bar at the bottom of the screen, and a bookmark in the Chromium browser's bookmarks bar.
+- You can use the **bio@bio.com**/ **gbif** credentials to log in the IPT.
+- Advanced use: IPT's data directory is located at `/iptdata`
+
+## Miniconda / Python environments
+
+To document.
+
+## Postgresql and PostGIS
+
+To document.
 
 # Tweak the configuration
 
@@ -38,15 +54,44 @@ Due to the VirtualBox platform, BiodiversityBox works like a different computer 
 
 ## Keyboard layout
 
+![keyboard configuration screenshot](https://github.com/BelgianBiodiversityPlatform/BiodiversityBox/raw/master/keyboard.png)
+
+At first start, BiodiversityBox is configured for an American English (QWERTY) keyboard. You can configure other layouts by **right-clicking on the small flag icon** on the right on the menu bar, then **"Keyboard settings"** -> **Layout tab**. Once you've added keyboard layouts, you can switch between them by (left) clicking on the flag icon in the menu bar.
+
+Alternatively, you can change the keyboard layout by using the `setxkbmap` command in the terminal. Example for a French layout:
+
+![keyboard configuration screenshot - terminal](https://github.com/BelgianBiodiversityPlatform/BiodiversityBox/raw/master/keyboard_terminal.png)
+
 ## Network access
+
+In most cases, the `NAT (Network Address Translation)` or `Bridged networking` modes should allow BiodiversityBox to access the Internet.
+
+If not, don't hesitate to consult [the relevant documentation for Virtualbox](https://www.virtualbox.org/manual/ch06.html).
 
 ## Sharing files
 
+To be written/fixed.
+
 ## Speed and performance
 
-## Copy-paste (between your "normal software" and BiodiversityBox)
+Virtual machines are, by definition, heavy (you have basically two systems running in parallel on a single computer). It's therefore important to carefully decide how to share memory between BiodiversityBox and your host operating system.
+
+This can be configured in Virtualbox. We advise to allocate at least 2Gb of memory to BiodiversityBox. You can adjust this based on the characteristics of your machine: the more RAM allowed the better, but you should also take care of not starving the host operating system (it'll also needs probably at least 2Gb to work correctly).
+
+We also advise you to experiment with a few different values and, when working in BiodiversityBox, to close any unnecessary application (web browsers, ...) in your host operating system.
+
+## Copy-paste between BiodiversityBox and your native applications
+
+To be written/fixed.
 
 # FAQ and advanced topics
+
+## I need root/administrative access to BiodiversityBox
+
+The following user accounts are provided:
+
+- **username:** bio / **password:** gbif (normal user, but you can use the `sudo` command for administrative tasks)
+- **username:** root / **password:** gbif (root user)
 
 ## How is it made?
 
