@@ -17,6 +17,7 @@ The following software is installed, configured and reay-to-use:
 - [Python 3](https://www.python.org/) and some useful Python packages such as [PyGBIF](https://github.com/sckott/pygbif) and [python-dwca-reader](https://python-dwca-reader.readthedocs.io).
 - [Miniconda](https://conda.io/en/latest/miniconda.html) allows easy installation of data science tools (many of them are already there: [Jupyter](https://jupyter.org/), [NumPy](http://www.numpy.org/), [Pandas](https://pandas.pydata.org/), ...)
 - [PostgreSQL](https://www.postgresql.org/) and [PostGIS](https://postgis.net/)
+- [SQLite](https://www.sqlite.org/index.html) with [DB Browser for SQLite](https://sqlitebrowser.org/)
 - [GDAL utilities](https://www.gdal.org/)
 - [CSVKit](https://csvkit.readthedocs.io/) for CSV manipulations
 - ... (full list [here](https://github.com/BelgianBiodiversityPlatform/BiodiversityBox/issues/5))
