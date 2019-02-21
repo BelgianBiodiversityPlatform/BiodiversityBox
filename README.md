@@ -1,3 +1,5 @@
+(I just want to download the applicance -> it's [here](https://www.dropbox.com/s/dcztfkx1zqenas8/BiodiversityBox.ova?dl=0))
+
 # BiodiversityBox
 
 BiodiversityBox is a preconfired Linux system for biodiversity informatics works. 
@@ -28,7 +30,7 @@ Something's missing? Don't hesitate to [report it with an issue](https://github.
 # Getting started
 
 1. Install [VirtualBox](https://www.virtualbox.org/) (version 6) on your computer.
-2. Download the BiodiversityBox virtual appliance and [import it in VirtualBox](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html).
+2. Download the [BiodiversityBox virtual appliance](https://www.dropbox.com/s/dcztfkx1zqenas8/BiodiversityBox.ova?dl=0) and [import it in VirtualBox](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html).
 3. Run the virtual machine
 4. Optionally, tweak the configuration (see below)
 
@@ -77,7 +79,7 @@ To be written/fixed.
 
 Virtual machines are, by definition, heavy (you have basically two systems running in parallel on a single computer). It's therefore important to carefully decide how to share memory between BiodiversityBox and your host operating system.
 
-This can be configured in Virtualbox. We advise to allocate at least 2Gb of memory to BiodiversityBox. You can adjust this based on the characteristics of your machine: the more RAM allowed the better, but you should also take care of not starving the host operating system (it'll also needs probably at least 2Gb to work correctly).
+This can be configured in Virtualbox. BiodiversityBox comes configured to use 2Gb of memory. If possible (if your machine has 4Gb+ of memory), we encourage you to allocate more memory to BiodiversityBox. You should also take care of not starving the host operating system.
 
 We also advise you to experiment with a few different values and, when working in BiodiversityBox, to close any unnecessary application (web browsers, ...) in your host operating system.
 
