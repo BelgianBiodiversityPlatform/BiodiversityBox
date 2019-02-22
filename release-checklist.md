@@ -2,6 +2,7 @@
 
 - Make sure RAM is set to 2Gb
 - Make sure network/file shares are removed
+- Make free space with `$ paccache -r` and `pacman -Rns $(pacman -Qtdq)`
 - Update changelog
 - When exporting in VB, sets:
     - Name: BiodiversityBox
