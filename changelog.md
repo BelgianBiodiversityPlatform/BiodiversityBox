@@ -1,5 +1,9 @@
 # Changelog
 
+## 2019-07-11
+
+- Updated all packages (2019-07-11)
+
 ## 2019-03-22
 
 - Updated all packages (2019-03-22) + QGIS GBIF plugin

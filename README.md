@@ -1,4 +1,4 @@
-(I just want to download the applicance -> it's [here](https://www.dropbox.com/s/dcztfkx1zqenas8/BiodiversityBox.ova?dl=0))
+(I just want to download the applicance -> it's [here](https://www.dropbox.com/s/4eg9c916fxt4m9v/BiodiversityBox.ova?dl=0))
 
 # BiodiversityBox
 
@@ -13,7 +13,7 @@ It is distributed as a [virtual applicance](https://en.wikipedia.org/wiki/Virtua
 The following software is installed, configured and reay-to-use:
 
 - [GBIF's IPT](https://www.gbif.org/ipt) (in test mode) for data publication
-- [QGIS 3.4 Madeira](https://www.qgis.org/) with some plugins such as [GBIF occurrences](https://plugins.qgis.org/plugins/qgisgbifapi/)
+- [QGIS 3.8 Zanzibar](https://www.qgis.org/) with some plugins such as [GBIF occurrences](https://plugins.qgis.org/plugins/qgisgbifapi/)
 - [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) with tons of installed packages (tidyverse, rgbif, sdm, readxl, SSDM, inborutils, ...)
 - [OpenRefine](http://openrefine.org/), a powerful tool for working with messy data
 - [Python 3](https://www.python.org/) and some useful Python packages such as [PyGBIF](https://github.com/sckott/pygbif) and [python-dwca-reader](https://python-dwca-reader.readthedocs.io).
@@ -30,7 +30,7 @@ Something's missing? Don't hesitate to [report it with an issue](https://github.
 # Getting started
 
 1. Install [VirtualBox](https://www.virtualbox.org/) (version 6) on your computer.
-2. Download the [BiodiversityBox virtual appliance](https://www.dropbox.com/s/dcztfkx1zqenas8/BiodiversityBox.ova?dl=0) and [import it in VirtualBox](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html).
+2. Download the [BiodiversityBox virtual appliance](https://www.dropbox.com/s/4eg9c916fxt4m9v/BiodiversityBox.ova?dl=0) and [import it in VirtualBox](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html).
 3. Run the virtual machine
 4. Optionally, tweak the configuration (see below)
 
